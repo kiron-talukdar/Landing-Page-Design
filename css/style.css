@@ -1,0 +1,529 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body{
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: #FFFDFD;
+}
+
+h1,h2,h3,h4,h5,h6,p,ul{
+  margin: 0;
+}
+
+ h1,h2{
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+img{
+  display: block;
+}
+p{
+  font-size: 20px;
+}
+.section-title{
+  text-align: center;
+  font-size: 48px;
+  font-weight: 800;
+  color: #4A6EE8;
+}
+.btn1 {
+  display: inline-flex;
+  padding: 15px 30px 15px 29px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background: #4A6EE8;
+  color: white;
+  border: none;
+  font-size: 20px;
+}
+.btn2{
+  border-radius: 8px;
+  padding: 15px 42px 15px 40px;
+  background: linear-gradient(283deg, #A94BFB -6.03%, #DAAFFF 105.45%);
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 700;
+}
+.btn3{
+  border-radius: 8px;
+  padding: 15px 50px 15px 48px;
+  background: linear-gradient(103deg, #B8C8FE -2.73%, #4A6EE8 106.4%);
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/*  */
+.container{
+  max-width: 1280px;
+  width: 100%;
+  margin: auto;
+}
+
+.section-padding{
+  padding: 80px 0px;
+}
+.mt{
+  margin-top: 80px;
+}
+.mb{
+  margin-bottom: 80px;
+}
+
+
+/* section 1   */
+
+.header{
+  background: linear-gradient( 90deg, #F2F3FC , #FFFDFD , #FFF5F1 );
+  ;
+}
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 45px 0px;
+}
+.logo h1{
+  font-size: 30px;
+  font-family: Poppins;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.logo  span{
+  color: #4A6EE8;
+}
+
+.nav ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.nav ul li{
+  padding:0 20px ;
+}
+.nav ul li a{
+  color: #333;;
+}
+
+.button-div{
+  padding-left: 30px;
+}
+
+/*  */
+/* .banner {
+  margin-top: 30px;
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	gap: 20px;
+	justify-items: center;
+} */
+
+.banner {
+  display: flex;
+	justify-content: space-between;
+  margin-top: 30px;
+	gap: 20px;
+}
+
+
+.banner-info .btn1{
+  margin-top: 40px;
+}
+
+.banner-info h1{
+  font-size: 72px;
+  font-weight: 800;
+  color: #333;
+}
+.banner-info p{
+  margin-top: 24px;
+  font-weight: 400;
+}
+
+/* section 2 service*/
+
+
+.service-cart{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 24px;
+  margin-top: 80px;
+} 
+
+.cart{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 50px 40px;
+  border-radius: 30px;
+  background: #FFF;
+  box-shadow: 0px 43px 60px 0px rgba(0, 0, 0, 0.12);
+}
+.cart h3{
+  margin-top: 26px;
+  font-size: 36px;
+  font-weight: 600;
+}
+.cart p{
+  margin-top: 26px;
+
+}
+
+.cart1 img{
+  padding: 30px;
+  border-radius: 30px;
+  box-shadow: 0px 11px 12px 0px rgba(0, 0, 0, 0.08);
+  background: linear-gradient(313deg, #F85D48 4.93%, #FFBFB7 92.67%);
+}
+.cart2 img{
+  padding: 30px;
+  border-radius: 30px;
+  box-shadow: 0px 11px 12px 0px rgba(0, 0, 0, 0.08);
+  background: linear-gradient(313deg, #4ACB7D 4.93%, #B8FFD4 92.67%);
+}
+.cart3 img{
+  padding: 30px;
+  border-radius: 30px;
+  box-shadow: 0px 11px 12px 0px rgba(0, 0, 0, 0.08);
+  background: linear-gradient(313deg, #A94BFB 4.93%, #DAAFFF 92.67%);
+}
+/* section 3 portfolio */
+/* .portfollio-area {
+  background: #FFFDFD;
+} */
+.portfolio-box{
+  display: flex;
+  margin-top: 90px;
+  gap: 20px;
+
+}
+.portfolio-left{
+  flex-basis: 40%;
+}
+
+.portfolio-left > h5{
+  color: #4A6EE8;
+  font-size: 20px;
+  font-weight: 700;
+}
+.portfolio-left > h3{
+  margin-top: 24px;
+  color: #333;
+  font-size: 36px;
+}
+.portfolio-left >p{
+  margin-top: 24px;
+  color: rgba(51, 51, 51, 0.80);
+
+}
+.total-projects {
+  margin-top: 56px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.total-projects h3{
+  color: #333;
+  font-size: 36px;
+}
+.total-projects h4{
+  color: #333;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/* .... portfolio right */
+.portfolio-right {
+  position: relative;
+  flex-basis: 60%;
+  margin-top: 35px;
+ 
+}
+.portfolio-right-img{
+  display: flex;
+  margin-bottom: 45px;
+}
+
+.center-img img {
+  position: absolute;
+  bottom: 5%;
+  left: 11%;
+  z-index: 1;
+  width: 700px;
+  height: 470px;
+}
+ .top-img{
+  position: relative;
+}
+
+.bottom-img{
+  position: relative;
+} 
+.arrow-icon {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+}
+.arrow-left{
+  border-radius: 100px;
+  padding: 13px;
+  background: linear-gradient(325deg, #F96753 13.99%, #FFCAC2 90.59%);
+}
+.arrow-right{
+  border-radius: 100px;
+  padding: 13px;
+  background: linear-gradient(322deg, #4A6EE8 15.65%, #C0CFFF 84.59%);
+}
+.works-client-title {
+  margin-top: 76px;
+  font-size: 24px;
+  color: #000;
+}
+.client-company-logo {
+  margin-top: 1.50rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  border-radius: 8px;
+  background: #FFF;
+  box-shadow: 0px 16px 60px 0px rgba(0, 0, 0, 0.08);
+  padding: 48px 0px;
+}
+
+/* section 4 about us area start */
+.about-us-top{
+  display: flex;
+  gap:1.5rem ;
+  padding-top: 5rem;
+
+}
+.about-us-top-left{
+  flex: 1;
+}
+.about-us-top-left h5{
+  color: #4A6EE8;
+  font-size: 1.25rem;
+  font-weight: 700; 
+  margin-top: 1.75rem;
+  
+}
+.about-us-top-left h3{
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin-top: 1.5rem;
+
+}
+.about-us-top-left p{
+  color:#333 ;
+  margin-top: 1.5rem;
+  padding-right: 4rem;
+
+}
+.about-us-top-left-button{
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.vision-cart{
+  border-radius: 16px;
+  background: linear-gradient(312deg, rgba(3, 47, 197, 0.90) 2.38%, rgba(131, 159, 255, 0.90) 100%);
+  padding: 25px;
+  height: 254px;
+  width: 264px;
+
+
+} 
+.about-us-top-right{
+  flex: 1;
+  position: relative;
+
+}
+.about-us-top-right img {
+  width: 95%;
+  flex: 1;
+}
+
+.vision-cart {
+  position: absolute;
+  right: -1px;
+  top: 252px;
+  color: white;
+}
+.vision-cart h3{
+  font-size: 24px;
+  font-weight: bold;
+
+}
+.vision-cart p{
+  font-size:1rem;
+}
+
+.about-us-bottom{
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  margin-top: 80px;
+}
+.box-40 {
+  flex: 1; /* width  */
+}
+
+.box-60 {
+  flex: 1.5;  /* width   Takes up 1.5 as much space as box1*/
+}
+.box-60 > h5 {
+  color: #4A6EE8;
+  font-size: 1.25rem;
+  font-weight: 700;
+
+}
+
+.box-60 .little-desc{
+  color: #333;
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 1.5rem;
+}
+.box-60 p{
+  color: #333;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-top: 1.5rem;
+}
+
+
+
+/* section 5 contact us area  */
+.contact-area {
+  background: linear-gradient(to top,#4A6EE8 5.5%, #9AB1FF 87%, 80%, transparent 80%);
+  padding-top: 0;
+  margin-top: 80px;
+}
+
+.contact-us-top {
+  display: flex;
+}
+
+.contact-us-top-left {
+  box-sizing: border-box;
+  padding: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.60);
+  box-shadow: 0px 9px 40px 0px rgba(0, 0, 0, 0.10);
+  border-radius: 1rem 0rem 0rem 1rem ;
+}
+.contact-us-top-right{
+  flex: 0 0 60%;
+}
+.contact-us-top-right img{
+  width: 100%;
+  height: auto;
+  border-radius: 0rem 1rem 1rem 0rem;
+}
+
+
+.contact-us-title{
+  font-size: 48px;
+  font-weight: 800;
+  color: #4A6EE8;
+
+}
+.contact-us-desc{
+  margin-top: 1.75rem;
+  flex-grow: 1;
+  font-size: 1.5rem;
+}
+
+.contact-us-bottom{
+  margin-top: 5rem;
+  display: flex;
+  gap:1.5rem;
+  color: white;
+}
+.contact-us-bottom-title {
+  font-size: 3rem;
+  flex-basis: 40%;
+  text-wrap: balance;
+}
+.contact-us-bottom-desc{
+  flex-basis: 60%;
+  font-size: 1.25rem;
+}
+
+/* section 6 botton area */
+
+.footer{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 8rem;
+}
+.footer-desc{
+  line-height: 1.5rem;
+}
+.footer-icon{
+  display: flex;
+  margin-top: 2.5rem;
+  gap: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.footer-center ul{
+  font-size: 20px;
+}
+.footer-center ul li{
+  margin-top: 1rem;
+
+}
+.footer-center ul li a{
+  color: #333;
+} 
+
+.footer-right h2{
+  font-weight: bold;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.footer-right-contact-us{
+  color: #333;
+  font-size: 1.50rem;
+  line-height: 30px;
+}
+.office-address{
+  margin-top: 2rem;
+}
+.office-address  div{
+  line-height: 30px;
+}
+.footer-bottom {
+  background: #4A6EE8;
+}
+
+.footer-bottom h2{
+  font-size: 1.5rem;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}
+.office-desc p{
+  text-wrap: balance;
+}
