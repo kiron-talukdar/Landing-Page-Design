@@ -96,7 +96,6 @@ p{
   font-size: 30px;
   font-family: Poppins;
   font-weight: 700;
-  margin-bottom: 1.5rem;
 }
 
 .logo  span{
@@ -150,6 +149,14 @@ p{
 .banner-info p{
   margin-top: 24px;
   font-weight: 400;
+}
+
+.nav-icon{
+  display:none;
+  border: 2px solid #535353;
+  padding: 5px 9px;
+  font-size: 22px !important;
+  border-radius: 3px;
 }
 
 /* section 2 service*/
@@ -527,3 +534,4 @@ p{
 .office-desc p{
   text-wrap: balance;
 }
+

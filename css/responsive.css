@@ -1,0 +1,86 @@
+/* REsponsive Design Start */
+@media screen and (max-width:1150px) {
+    /* global */
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+        box-sizing: border-box;
+    }
+    .banner-info h1 {
+        font-size: 53px;
+        line-height: 120%;
+    }
+}
+@media screen and (max-width:990px)
+    {
+
+    .btn1 {
+        padding: .75rem 1rem;
+        font-size: 1rem;
+    }
+
+
+    /* 1 header banner */
+
+      .banner {
+        margin-top: 15px;
+    }
+    .banner-img {
+        flex: 0 0 40%;
+      }
+    .banner-info h1 {
+        font-size: 44px;
+    }
+
+    .nav ul li {
+        padding: 0px 7px;
+    }
+    .nav ul li a{
+        font-size: 1rem;
+    }
+    .nav {
+        padding: 30px 0px;
+    }
+
+
+      /* 2  */
+}
+
+@media screen and (max-width:768px){
+    /* 1 header banner */
+    .nav ul {
+        display: none;
+    }
+    .nav-icon{
+        display: block;
+    }
+    .banner {
+        margin-top: 0;
+    }
+    .nav ul a{
+        font-size: 1rem;
+    }
+    .banner-info h1 {
+        font-size: 29px;
+    }
+    .banner-info p {
+        margin-top: 1rem;
+        font-size: .9rem;
+    }
+    .banner-info .btn1 {
+        margin-top: 1rem;
+        padding: 10px 12px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .banner {
+        flex-direction: column;
+
+    }
+    .banner-img{
+        max-width: 60%;
+        height: auto;
+        margin: auto;
+    }
+}
