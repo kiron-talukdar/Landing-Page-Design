@@ -1,4 +1,16 @@
 /* REsponsive Design Start */
+@media screen and (max-width:1280px) {
+    .portfolio-box {
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .portfolio-right {
+        position: relative;
+        flex-basis: 60%;
+        margin-top: 35px;
+        margin: auto;
+    }
+}
 @media screen and (max-width:1150px) {
     /* global */
     .container {
@@ -10,6 +22,33 @@
         font-size: 53px;
         line-height: 120%;
     }
+    .section-padding {
+        padding: 60px 0px;
+    }
+    /* 2 */
+    .cart h3 {
+        margin-top: 16px;
+        font-size: 1.75rem;
+    }
+    .cart p {
+        margin-top: 26px;
+        font-size: 1rem;
+    }
+    /* 3 */
+    .total-projects {
+
+        justify-content: space-around;
+    }
+    /* 4 about us*/
+    .about-us-top {
+        flex-direction:column-reverse ;
+    }
+    .vision-cart {
+        right: 5px;
+        bottom: -8px;
+        top: auto;
+    }
+
 }
 @media screen and (max-width:990px)
     {
@@ -18,10 +57,7 @@
         padding: .75rem 1rem;
         font-size: 1rem;
     }
-
-
     /* 1 header banner */
-
       .banner {
         margin-top: 15px;
     }
@@ -42,11 +78,35 @@
         padding: 30px 0px;
     }
 
-
       /* 2  */
+      .service-cart {
+        margin-top: 3.75rem;
+    }
+    .cart img{
+        padding: 1.25rem;
+    }
+    .cart h3 {
+        margin-top: 1rem;
+        font-size: 1.50rem;
+    }
+    .cart {
+        padding: 28px 20px;
+    }
+    /* 3 */
+    .center-img img {
+        position: absolute;
+        bottom: 7%;
+        left: 6%;
+        z-index: 1;
+        width: 650px;
+        height: 400px;
+    }
 }
 
 @media screen and (max-width:768px){
+    .section-title {
+        font-size: 32px;
+    }
     /* 1 header banner */
     .nav ul {
         display: none;
@@ -71,16 +131,75 @@
         margin-top: 1rem;
         padding: 10px 12px;
     }
+    /* 2 */
+    .service-cart {
+        grid-template-columns: repeat(2,1fr);
+    }
+    /* 3 */
+    .portfolio-left > h3 {
+        font-size: 24px;
+    }
+    .total-projects h3 {
+        font-size: 24px;
+    }
+    .client-company-logo {
+        margin-top: 1rem;
+        padding: 22px 0px;
+    }
+    .client-company-logo img {
+        width: 15%;
+    }
 }
 
 @media screen and (max-width: 576px) {
+    /* global */
+    .btn2 {
+        padding: 1rem 1.25rem;
+        font-size: 16px;
+    }
+    .btn3 {
+        padding: 1rem 1.25rem;
+        font-size: 16px;
+    }
+
     .banner {
         flex-direction: column;
-
     }
     .banner-img{
         max-width: 60%;
         height: auto;
         margin: auto;
+    }
+    /* 2 */
+    .service-cart {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .vision-cart {
+        position:static;
+        margin: auto;
+    }
+    .about-us-top-right img {
+        width: 100%;
+        flex: 1;
+    }
+    .total-projects h4 {
+        font-size: 16px;
+    }
+    .total-projects h3 {
+        font-size: 24px;
+    }
+    .about-us-top {
+        padding-top: 3.75rem;
+    }
+    .about-us-top-left h3 {
+        font-size: 1.25rem;
+    }
+    .about-us-top-left p {
+        margin-top: 1rem;
+        padding-right: 0;
+    }
+    .about-us-top-left-button {
+        gap: 1rem;
+        margin-top: 1rem;
     }
 }
